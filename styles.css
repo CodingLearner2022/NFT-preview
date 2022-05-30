@@ -6,19 +6,20 @@ body {
     min-height: 100vh;
     background-color: #0c1729;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Outfit', sans-serif;
 }
 
 #card-container {
-    width: 20%;
+    width: 380px;
     background-color: #15273f;
     display: flex;
     flex-wrap: wrap;
     padding: 25px;
     border-radius: 3%;
-    font-family: 'Outfit', sans-serif;
 }
 
 #equilibrium {
@@ -28,17 +29,18 @@ body {
     margin-bottom: 30px;
 }
 
-h2 {
-    font-size: 25px;
+h1 {
+    font-size: 24px;
     margin: 0;
 }
 
 #ad-paragraph {
-    width: 90%;
+    width: 100%;
     line-height: 30px;
     font-size: 18px;
     color: #8b9ebb;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 #bellow-ad {
@@ -62,6 +64,7 @@ h2 {
 #eth-amount p {
     color: #26eaef;
     margin-left: 10px;
+    font-size: 18px;
 }
 
 #time-left {
@@ -78,6 +81,7 @@ h2 {
 #time-left p {
     margin-left: 8px;
     color: #8aa8d4;
+    font-size: 18px;
 }
 
 #creator {
@@ -98,11 +102,9 @@ h2 {
 
 #creator p {
     margin-left: 17px;
+    font-size: 18px;
 }
 
-
-@media screen and (max-width: 200px) {
-    p {
-        color: red;
-    }
+.attribution {
+    width: 100%;
 }
